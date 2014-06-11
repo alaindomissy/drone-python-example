@@ -26,7 +26,7 @@ class FooTest(unittest.TestCase):
 
   def testAdd(self):
     self.assertEqual(3, foo.add(1, 2))
-    self.assertEqual(1, foo.add(1, 2))
+    self.assertEqual(4, foo.add(1, 3))
 
 
 if __name__ == '__main__':
