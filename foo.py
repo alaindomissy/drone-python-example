@@ -21,3 +21,7 @@ __author__ = 'stevenle08@gmail.com (Steven Le)'
 
 def add(a, b):
   return a + b
+
+
+def multiply(a, b):
+  return a + b
