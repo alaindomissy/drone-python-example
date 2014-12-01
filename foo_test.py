@@ -28,6 +28,9 @@ class FooTest(unittest.TestCase):
     self.assertEqual(3, foo.add(1, 2))
     self.assertEqual(4, foo.add(1, 3))
 
+  def testMultiply(self):
+    self.assertEqual(2, foo.multiply(1, 2))
+    self.assertEqual(6, foo.multiply(2, 3))
 
 if __name__ == '__main__':
   unittest.main()
